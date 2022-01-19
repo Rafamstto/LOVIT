@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.241);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: rgba(157, 136, 22, 0.631);
+    cursor: pointer;
+}
+
+header .logo h2 {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(202, 98, 126);
+}
+
+header .container a {
+    cursor: pointer;
+    font-size: 38px;
+    text-decoration: none;
+    color: rgb(46, 24, 0);
+    padding: 10px;
+}
+
+main section.banner {
+    padding: 30px 0;
+}
+
+section.banner .slide img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(77, 77, 60);
+}
+
+main section.banner .container {
+    position: relative;
+}
+
+main section.banner .container .seta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section.banner .container .seta a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(102, 104, 102, 0.364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+section.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section.projects .right {
+    background-color: rgba(128, 128, 128, 0.193);
+    justify-content: center;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(77, 77, 60);
+    cursor: pointer;
+}
+
+section.projects .left {
+    background-color: rgba(128, 128, 128, 0.193);
+    justify-content: center;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(77, 77, 60);
+    cursor: pointer;
+}
+
+section.projects .left .img-left {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+section.projects .right .img-right {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+section.projects .line-left {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+section.projects .line-right {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+section.projects .line-left .btn-new {
+    background-color: rgb(88, 209, 88);
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.782);
+    height: 31px;
+    width: 80px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+section.projects .line-right .btn-sale {
+    background-color: rgb(218, 188, 18);
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.782);
+    height: 31px;
+    width: 80px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+section.projects span {
+    color: grey;
+    height: 40px;
+    font-size: 35px;
+}
+
+section.projects h5 {
+    text-align: justify;
+    padding: 0;
+    margin: 15px;
+    color: rgb(97, 95, 95);
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+}
+
+section.styles .container h2 {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 32px;
+    box-shadow: 1px 1px 6px rgba(141, 141, 141, 0.59);
+    color: grey;
+}
+
+section.styles article {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    margin: 15px 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(77, 77, 60);
+    cursor: pointer;
+}
+
+section.styles article h3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.160);
+    font-style: italic;
+    font-weight: 250;
+}
+
+form {
+    width: 500px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+form label {
+    font-size: 18px;
+    font-style: italic;
+}
+
+form input:not([type='radio']):not([type='checkbox']),
+form select {
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+form textarea {
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+form fieldset {
+    margin: 10px 0;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+form fieldset input {
+    margin: 0 10px;
+}
+
+form button {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #DC9730;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    margin: 10px auto;
+}
+
+form button:hover {
+    background-color: #51D275;
+    transition: .2s ease-in;
+}
+
+.main-form {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #DC9730;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    margin: 10px auto;
+}
+
+.btn-primary:hover {
+    background-color: #51D275;
+    transition: .2s ease-in;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(39, 39, 39, 0.741);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+footer .container article.esq iframe {
+    width: 450px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+footer .container article.esq a {
+    background-color: rgba(73, 73, 73, 0);
+    font-size: 200px;
+    display: block;
+    color: rgba(255, 255, 255, 0);
+}
+
+footer .container article.dir {
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+footer .container article.dir p {
+    line-height: 35px;
+}
+
+footer .container article.dir .social {
+    /* display:inline-block; */
+}
+
+footer .container article.dir li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer .container article.dir li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+}
+
+footer .container article.dir li a:hover i {
+    color: rgba(187, 162, 21, 0.685);
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 0 40px;
+    }
+    main section.projects .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    main section.projects .container article {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 740px) {
+    footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
