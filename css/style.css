@@ -28,21 +28,21 @@ header .container {
 header .logo h1 {
     display: inline-block;
     font-size: 50px;
-    color: rgba(157, 136, 22, 0.631);
+    color: rgba(117, 103, 21, 0.631);
     cursor: pointer;
 }
 
 header .logo h2 {
     display: inline-block;
     font-size: 16px;
-    color: rgb(202, 98, 126);
+    color: rgb(255, 64, 115);
 }
 
 header .container a {
     cursor: pointer;
     font-size: 38px;
     text-decoration: none;
-    color: rgb(46, 24, 0);
+    color: rgb(43, 23, 2);
     padding: 10px;
 }
 
@@ -75,7 +75,7 @@ main section.banner .container .seta a {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background-color: rgba(102, 104, 102, 0.364);
+    background-color: rgba(114, 116, 114, 0.364);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@ section.projects {
 }
 
 section.projects .right {
-    background-color: rgba(128, 128, 128, 0.193);
+    background-color: rgba(116, 115, 115, 0.193);
     justify-content: center;
     width: 450px;
     max-width: 100%;
@@ -142,7 +142,7 @@ section.projects .line-right {
 }
 
 section.projects .line-left .btn-new {
-    background-color: rgb(88, 209, 88);
+    background-color: rgb(79, 245, 79);
     border-radius: 25px;
     color: rgba(255, 255, 255, 0.782);
     height: 31px;
@@ -153,7 +153,7 @@ section.projects .line-left .btn-new {
 }
 
 section.projects .line-right .btn-sale {
-    background-color: rgb(218, 188, 18);
+    background-color: rgb(187, 162, 19);
     border-radius: 25px;
     color: rgba(255, 255, 255, 0.782);
     height: 31px;
@@ -173,7 +173,7 @@ section.projects h5 {
     text-align: justify;
     padding: 0;
     margin: 15px;
-    color: rgb(97, 95, 95);
+    color: rgb(87, 86, 86);
     font-family: 'Ropa Sans', sans-serif;
     font-size: 18px;
 }
